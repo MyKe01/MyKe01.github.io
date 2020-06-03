@@ -46,12 +46,11 @@
       margin-bottom: .5rem;
       text-align: center;
     }
-    .col-6 {
-      margin: 2% 0 ;
-    }
-    .col-6 > p {
+
+    .col-6, .col-sm > p {
       text-align: justify;
     }
+
     img {
       width: 90%;
     }
@@ -64,8 +63,18 @@
       align-self: center;
     }
 
-    #conclusione-text, #competenze-text {
+    #competenze-text {
       margin: 2% 0 6% 0;
+    }
+
+    #conclusione-text > p{
+      padding-top: 2%;
+    }
+
+    .col-sm{
+      padding-top: 2%;
+      margin: 2% 0 ;
+      align-self: center;
     }
   </style>
   <body>
@@ -105,21 +114,22 @@
       <button id="azienda" type="button" class="collapsible"><h2>Azienda</h2></button>
       <div class="content">
         <div class="row">
-          <div class="col-6">
+          <div class="col-sm">
             <p>
               ADEL System  fornisce una soluzione completa nel settore dell'alimentazione elettrica. Oltre agli alimentatori, fornisce anche sistemi di gestione, controllo, back-up e carica batterie.
             </p>
           </div>
 
-          <div class="col-6">
+          <div class="col-sm">
             <img src="img/adel_system_logo.png" class="img-fluid" alt="adel-logo">
           </div>
-
-          <div class="col-6">
+        </div>
+        <div class="row">
+          <div class="col-sm">
             <img src="img/04_img_powersupply.png" class="img-fluid" alt="...">
           </div>
 
-          <div class="col-6" >
+          <div class="col-sm" >
             <p>
               I prodotti principali forniscono la continuità elettrica in qualsiasi condizione del sistema, attraverso una gestione sofisticata e completamente automatica di qualsiasi tipo di batteria industriale. Sono dispositivi compatti che assolvono tre funzioni chiave, quali l’alimentazione stabilizzata, la gestione della ricarica della batteria e l’attivazione del modulo di Back Up.
             </p>
@@ -133,21 +143,22 @@
 
       <div class="content">
         <div class="row" id="attività-text">
-          <div class="col-6">
+          <div class="col-sm">
             <p>
               La mia esperienza in ADEL system è durata due settimane; nella prima ho svolto compiti di logistica.
             </p>
           </div>
-
-          <div class="col-6">
+        
+          <div class="col-sm">
             <img src="img/logistic.png"  class="img-fluid rounded mx-auto d-block" alt="logistic-logo">
           </div>
-
-          <div class="col-6">
-            <img src="img/pc.png" class="img-fluid rounded mx-auto d-block" alt="...">
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <img src="img/pc.png" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 200px; max-height: 200px;">
           </div>
 
-          <div class="col-6">
+          <div class="col-sm">
             <p>
               Nella seconda settimana mi è stato affidato il compito di inserire dati per la sezione di marketing dell'azienda.
             </p>
